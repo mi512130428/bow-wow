@@ -355,7 +355,7 @@ section {
     width: 100vw;
     height: auto;
     overflow: hidden;
-    object-fit: contain;
+    object-fit: cover;
 }
 
 .paws {
