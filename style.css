@@ -804,11 +804,7 @@ footer {
 
     .main-visual li {
         height: 60vh;
-    }
-
-    .mv {
-        object-fit: cover;
-    }
+    }  
 
     .main-visual-text p {
         left: 0;
@@ -846,7 +842,7 @@ footer {
     }
 
     #information {
-        padding: 100px 2% 150px;
+        padding: 30px 2% 100px;
     }
 
     .information {
@@ -953,6 +949,10 @@ footer {
 
 @media screen and (max-width:767px) {
 
+    section {
+    padding: 50px 0 60px;
+    }
+
     .headerLogo {
         width: 70px;
         margin-top: 10px;
@@ -968,10 +968,12 @@ footer {
     }
 
     .main-visual-text p {
+    top: 70%;
         font-size: 2em;
     }
 
     .main-visual-text small {
+        bottom: 260px;
         font-size: 3em;
     }
 
@@ -1066,9 +1068,8 @@ footer {
     }
 
     .dog {
-        bottom: -250px;
+        bottom: -180px;
         right: -50px;
-
         scale: 0.4;
     }
 
